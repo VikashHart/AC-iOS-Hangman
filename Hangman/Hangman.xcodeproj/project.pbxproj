@@ -12,6 +12,8 @@
 		3E1A62181F97B0930025E03C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1A62161F97B0930025E03C /* Main.storyboard */; };
 		3E1A621A1F97B0930025E03C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E1A62191F97B0930025E03C /* Assets.xcassets */; };
 		3E1A621D1F97B0930025E03C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E1A621B1F97B0930025E03C /* LaunchScreen.storyboard */; };
+		81AE94961FA930D20084AA43 /* twoPlayerHangmanModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AE94951FA930D20084AA43 /* twoPlayerHangmanModel.swift */; };
+		81DC470F1FB2B84C006C4F24 /* String+LetterValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DC470E1FB2B84C006C4F24 /* String+LetterValidation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3E1A62191F97B0930025E03C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E1A621C1F97B0930025E03C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E1A621E1F97B0930025E03C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81AE94951FA930D20084AA43 /* twoPlayerHangmanModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = twoPlayerHangmanModel.swift; sourceTree = "<group>"; };
+		81DC470E1FB2B84C006C4F24 /* String+LetterValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+LetterValidation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				3E1A62121F97B0930025E03C /* AppDelegate.swift */,
+				81AE94951FA930D20084AA43 /* twoPlayerHangmanModel.swift */,
 				3E1A62141F97B0930025E03C /* ViewController.swift */,
+				81DC470E1FB2B84C006C4F24 /* String+LetterValidation.swift */,
 				3E1A62161F97B0930025E03C /* Main.storyboard */,
 				3E1A62191F97B0930025E03C /* Assets.xcassets */,
 				3E1A621B1F97B0930025E03C /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81AE94961FA930D20084AA43 /* twoPlayerHangmanModel.swift in Sources */,
+				81DC470F1FB2B84C006C4F24 /* String+LetterValidation.swift in Sources */,
 				3E1A62151F97B0930025E03C /* ViewController.swift in Sources */,
 				3E1A62131F97B0930025E03C /* AppDelegate.swift in Sources */,
 			);
@@ -275,7 +283,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.marcelchaucer.Hangman;
@@ -290,7 +298,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = TX9MB8N6AG;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Hangman/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nyc.c4q.marcelchaucer.Hangman;
